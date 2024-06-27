@@ -8,9 +8,6 @@ def main():
     print("--- End report ---")
 
 
-
-
-
 def get_the_text(path):
     with open(path) as f:
         return f.read()
