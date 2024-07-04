@@ -6,6 +6,7 @@ def main():
     for i in var_2:
         print(f"The {i["name"]} character was found {i["num"]} times")
     print("--- End report ---")
+    print("Thanks for reading")
 
 
 def get_the_text(path):
@@ -19,6 +20,7 @@ def count_character(text):
     my_set = set(text)
     for i in my_set:
         my_dict[i]=text.count(i)
+
     return my_dict
 
 
